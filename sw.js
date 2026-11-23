@@ -1,9 +1,9 @@
 // 一度ひらいたら、すべてのファイルを端末に保存してオフラインで使えるようにする
-const CACHE = 'kanji-shirabe-v1';
+const CACHE = 'kanji-shirabe-v2';
 const FILES = [
   './', 'index.html', 'app.js', 'manifest.webmanifest',
   'icon-180.png', 'icon-192.png', 'icon-512.png',
-  'data/kanji.json', 'data/words.json',
+  'data/kanji.json', 'data/words.json', 'data/names.json',
 ];
 
 self.addEventListener('install', (e) => {

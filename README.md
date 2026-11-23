@@ -9,6 +9,7 @@
 - `manifest.webmanifest`, `icon-*.png` … ホーム画面用
 - `data/kanji.json` … 漢字 12,286字（読み・画数・学年・例語）
 - `data/words.json` … 読み → ことば 約13.5万読み
+- `data/names.json` … 読み → 人名（名字・名前）約11.6万読み
 
 ## 公開（GitHub Pages）
 1. GitHub で公開リポジトリを作り、このフォルダの中身をそのまま置く
@@ -19,3 +20,4 @@
 ## データの出典
 KANJIDIC2 / JMdict（© Electronic Dictionary Research and Development Group, CC BY-SA 4.0）。
 npm パッケージ `kanji-data` 1.1.0（kanjiapi.dev 由来）から変換。
+人名：ENAMDICT（© EDRDG, CC BY-SA 4.0、npm `enamdict` 0.1.8 経由）。`build-names.py` で変換。
